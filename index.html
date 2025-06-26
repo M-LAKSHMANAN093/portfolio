@@ -3,9 +3,205 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Lakshmanan portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ </head>
 <body>
-    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Junior Web Devloper</p>
+                <h1>Hi,I'm <span>Lakshmanan</span> </h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/myphoto4.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut dolorem fuga maxime impedit voluptatem nesciunt adipisci eveniet qui nisi veritatis culpa pariatur suscipit nemo, quis aspernatur rerum tenetur. Velit, eligendi? Id doloremque, a molestias modi asperiores laboriosam et unde eius, rem sit beatae neque! Suscipit dolorem nam ratione repudiandae quasi, modi laborum, dolorum eius ipsa fuga expedita ullam voluptatem placeat, molestias quaerat assumenda eum libero fugiat necessitatibus saepe at! Est laudantium officia, itaque facilis deleniti corrupti quod culpa impedit repudiandae praesentium vel similique nobis minima alias ab ex, fugit aperiam expedita dolor aliquam beatae. Suscipit totam fuga ad in numquam.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Fullstack</span><br> Python</li>
+                            <li><span>web Development</span><br> web app Development</li>
+                            <li><span>App Development</span><br> mobile app Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Fullstack</span><br> Python111</li>
+                            <li><span>web Development</span><br> web app Development</li>
+                            <li><span>App Development</span><br> mobile app Development</li>
+                        </ul>
+                    </div><div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Fullstack</span><br> Python222</li>
+                            <li><span>web Development</span><br> web app Development</li>
+                            <li><span>App Development</span><br> mobile app Development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list"> 
+            <div class="work">
+            <img src="images/port3.jpeg">
+            <div class="layer">
+                <h3>create own portfolio</h3>
+                <p>create my own portfolio using fhjg fsjah fgjh df;hgo lihggio ihbgo html css js programming lanuage</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+             </div>
+            <div class="work">
+            <img src="images/grouphoto.jpeg">
+            <div class="layer">
+                <h3>traffic system</h3>
+                <p>create my own portfolio using html fbihcvim bhvdu d dhbhbvh obkb kv bvn bkdhb9hdgb css js programming lanuage</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+            <img src="images/cofecup.jpeg">
+            <div class="layer">
+                <h3>coffee website</h3>
+                <p>create my own portfolio using  biudhnbn udfh biuhd fubhdfh ludfhb iouh html css js programming lanuage</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+             </div>
+         </div>
+         <a href="#" class="btn">See More</a>
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact</h1>
+                <p><i class="fa-solid fa-envelope"></i>  lakshmananm093@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>  +919003911184</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/lakshmanan-m-43458a35a/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/919003911184"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.hackerrank.com/profile/lakshmananm093"><i class="fa-brands fa-hackerrank"></i></a>
+                    <a href="#"></i></a>
+
+                </div>
+                <a href="#" download class="btn btn2"> Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email Id" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">
+                </span>
+
+            </div>
+    </div>
+</div>
+
+
+<div class="copyright">
+    <p>Copyrigt @ lakshmanan</p>
+</div>
+
+
+
+
+ 
+ <script>
+
+
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+
+     function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+         for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+     }
+
+
+ </script>  
+ 
+ 
+ <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+ </script>
+
+ <script>
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyzSQ6FywEVRUKzg8aUjLWZi6mpUiJDimlK2MPWYuDl7xjiD7lVT9kjtHsfPab8ii3R/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Send Successfully!!"
+        setTimeout(function(){
+            msg.innerHTML =""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
 </body>
 </html>
