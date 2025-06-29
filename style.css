@@ -33,10 +33,6 @@ nav{
     flex-wrap: wrap;
 }
 
-.logo{
-    width: 200px;
-}
-
 nav ul li{
     display: inline-block;
     list-style: none;
